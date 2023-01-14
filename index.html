@@ -1,0 +1,103 @@
+{% extends "layout.html" %}
+
+{% block header %}
+<h1 class="title copperplate"><strong>The Edge of the Universe</strong></h1>
+<div>
+  <a href="{{ url_for('about') }}" class="margin20 links">About</a></div>
+</div>
+{% endblock %}
+
+{% block main %}
+    <h2>Posts</h2>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Example text <small class="text-muted">January 13th 2023</small></h5>
+                  <p class="card-text">This is just an placeholder info text. Dunno what else to say</p>
+                  <a href="{{ url_for('example') }}" class="btn btn-outline-secondary">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 mb-3 mb-sm-0">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment <small class="text-muted">Date</small></h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-outline-secondary">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment <small class="text-muted">Date</small></h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-outline-secondary">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 mb-3 mb-sm-0">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment <small class="text-muted">Date</small></h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-outline-secondary">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment <small class="text-muted">Date</small></h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content. </p>
+                  <a href="#" class="btn btn-outline-secondary">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 mb-3 mb-sm-0">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment <small class="text-muted">Date</small></h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-outline-secondary">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment <small class="text-muted">Date</small></h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-outline-secondary">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 mb-3 mb-sm-0">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment <small class="text-muted">Date</small></h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-outline-secondary">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+{% endblock %}
+
+<!-- 
+$ export FLASK_DEBUG=1
+$ flask run
+-->
